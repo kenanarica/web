@@ -5,6 +5,6 @@ date:   2021-12-27 09:29:55 -0600
 categories: bingus
 ---
 
-## Bingus my beloved <3
-
+## Bingus my NOT beloved <3
+I hate bingus!!!
 ![bingus](/assets/images/bingus.png)
