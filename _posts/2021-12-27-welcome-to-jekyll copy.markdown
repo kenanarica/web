@@ -6,5 +6,7 @@ categories: bingus
 ---
 
 ## Bingus my NOT beloved <3
-I hate bingus!!!
 ![bingus](/assets/images/bingus.png)
+
+
+I hate bingus!!!
