@@ -1,5 +1,5 @@
-$backgroundColor: #552b1a;
-$bodyColor: #ffffff;
+$backgroundColor: #466655;
+$bodyColor: #6448b8;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
 @font-face {
@@ -10,6 +10,22 @@ $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-seri
   font-family: Mons;
   src: url("/assets/fonts/Montserrat-Regular.ttf") format("opentype");
 }
+
+$toadking : #466655;
+$illgreen : #47946e;
+$purpleill : #b0acf2;
+$moonraker : #b9aedb;
+
+$nocturne: #33485c;
+$montreux-blue: #527aa1;
+$treasure-map-waters: #6093b0;
+$tranquili-teal: #68a4ae;
+$sereni-teal: #72b4ae;
+$riverbed: #8abdb9;
+
+$header_color : $tranquili-teal;
+$backgroundColor : $nocturne;
+$post_color : $montreux-blue;
 
 body {
   background: $backgroundColor;
@@ -22,19 +38,32 @@ body {
   margin: 40px;
   // width: 500px;
   // height: 500px;
-  outline: inset 2px black;
-  background-color: #e68e2a;
+  outline: inset 0px black;
+  background-color: $post_color;
+  color: #ffffff;
+}
+
+.post_content { 
+  margin: 40px 40px 40px 40px;
+  padding: 30px 30px 30px 30px;
+  background-color: $treasure-map-waters;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
 }
 
 .homeheader { 
   padding: 60px;
   text-align: left;
-  background: #471132;
-  color: white;
+  background: $header_color;
+  color: #ffffff;
   font-size: 30px;
   // font-family: Mons;
+  a { text-decoration: none;
+      color:#ffffff
+  }
 }
 
 .what { 
   float: right;
 }
+
