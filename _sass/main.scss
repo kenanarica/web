@@ -23,9 +23,42 @@ $tranquili-teal: #68a4ae;
 $sereni-teal: #72b4ae;
 $riverbed: #8abdb9;
 
-$header_color : $tranquili-teal;
-$backgroundColor : $nocturne;
-$post_color : $montreux-blue;
+$sakura-night: #7a6e7b;
+$decadial-pink: #dcc6e0;
+$lovely-breeze: #f4d2e9;
+$pleasing-pink: #f5c7d6;
+$berries-n-cream: #f4bfc9;
+$salmon-flush: #eec6cd;
+
+$magic-magenta: #7f4776;
+$love-priestess: #ce62c2;
+$love-dust: #dc8cdb;
+$york-plum: #d2b4e6;
+$frozen-periwinkle: #c8d0e9;
+$whisper-of-smoke: #caccd4;
+
+$wild-west: #7b5758;
+$powder-blush: #da9396;
+$peach-velour: #ebab8f;
+$honey-gold: #e3b672;
+$crusade-king: #dbc166;
+$desert-temple: #dbcc99;
+
+$header_color : $powder-blush;
+$backgroundColor : linear-gradient(
+  #b75fd0, 
+  #da9396, 
+  #ebab8f, 
+  #e3b672, 
+  #dbc166, 
+  #e16741
+);
+
+
+
+$post_color : #de5468d2;
+$post_content_color : $powder-blush;
+$text_color : #000000;
 
 body {
   background: $backgroundColor;
@@ -40,26 +73,26 @@ body {
   // height: 500px;
   outline: inset 0px black;
   background-color: $post_color;
-  color: #ffffff;
+  color: $text_color;
 }
 
 .post_content { 
   margin: 40px 40px 40px 40px;
   padding: 30px 30px 30px 30px;
-  background-color: $treasure-map-waters;
+  background-color: $post_content_color;
   // margin-top: 20px;
   // margin-bottom: 20px;
 }
 
 .homeheader { 
-  padding: 60px;
+  padding: 50px;
   text-align: left;
   background: $header_color;
-  color: #ffffff;
+  color: $text_color;
   font-size: 30px;
   // font-family: Mons;
   a { text-decoration: none;
-      color:#ffffff
+      color: $text_color
   }
 }
 
