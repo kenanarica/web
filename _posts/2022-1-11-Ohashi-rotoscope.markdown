@@ -2,14 +2,14 @@
 layout: post
 title:  "Ohashi Rotoscope"
 date:   2022-1-11 09:29:55 -0600
-categories: bingus
+categories: animated
 ---
 
 
-Here's a basic rotoscope I did of one of Katelyn Ohashi's routines. I wanted to get some expertistwith epn control. 
+Here's a basic rotoscope I did of one of Katelyn Ohashi's routines. I wanted to get some expertise with pen control. 
 
-
-![ohashi](/assets/images/ohashi.mp4)
-
+<video muted autoplay controls>
+    <source src="/assets/images/ohashi.mp4" type="video/mp4">
+</video>
 
 
