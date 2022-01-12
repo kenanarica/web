@@ -10,7 +10,7 @@ Here's a basic rotoscope I did of one of Katelyn Ohashi's routines. I wanted to 
 
 
 <video muted autoplay controls loop>
-    <source src="/assets/images/ohashi.mp4" type="video/mp4">
+    <source src="/assets/images/ohashi.MP4" type="video/mp4">
 </video>
 
 
