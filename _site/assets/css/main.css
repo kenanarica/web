@@ -2,16 +2,24 @@
 
 @font-face { font-family: Mons; src: url("/assets/fonts/Montserrat-Regular.ttf") format("opentype"); }
 
-body { background: linear-gradient(#b75fd0, #da9396, #ebab8f, #e3b672, #dbc166, #e16741); color: #6448b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+body { background: linear-gradient(#645d89, #aea2e7, #c9c6fd, #d9eff8, #cad3e7); color: #6448b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; height: 100vh; }
 
-.post { margin: 40px; outline: inset 0px black; background-color: #de5468d2; color: #000000; }
+.post { margin: 40px; outline: inset 0px black; background-color: #c9c6fd; color: #ffffff; width: 70%; }
 
-.post_content { margin: 40px 40px 40px 40px; padding: 30px 30px 30px 30px; background-color: #da9396; }
+.post_content { margin: 40px 40px 40px 40px; padding: 30px 30px 30px 30px; background-color: #645d89; }
 
-.homeheader { padding: 50px; text-align: left; background: #da9396; color: #000000; font-size: 30px; }
+.post_content a { text-decoration: none; color: #c9c6fd; }
 
-.homeheader a { text-decoration: none; color: #000000; }
+.post_content video { max-width: 100%; }
+
+.homeheader { padding: 50px; text-align: left; background: #d4e0fd; color: #645d89; font-size: 30px; }
+
+.homeheader a { text-decoration: none; color: #645d89; }
 
 .what { float: right; }
+
+.about_positioned { margin: auto; width: 90vh; padding-top: 30vh; }
+
+.about_content { background-color: #c9c6fd; }
 
 /*# sourceMappingURL=main.css.map */

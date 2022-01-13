@@ -19,7 +19,7 @@ hmm.camp
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-      - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+      - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
       {{ post.content }}
       </div>
       </div>
