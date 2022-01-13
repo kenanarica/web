@@ -90,6 +90,7 @@ body {
   background-color: $post_color;
   color: $text_color;
   width: $post_width;
+  text-size-adjust: auto;
 }
 
 .post_content { 

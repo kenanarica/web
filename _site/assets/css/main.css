@@ -4,7 +4,7 @@
 
 body { background: linear-gradient(#645d89, #aea2e7, #c9c6fd, #d9eff8, #cad3e7); color: #6448b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; height: 100vh; }
 
-.post { margin: 40px; outline: inset 0px black; background-color: #c9c6fd; color: #ffffff; width: 70%; }
+.post { margin: 40px; outline: inset 0px black; background-color: #c9c6fd; color: #ffffff; width: 70%; text-size-adjust: auto; }
 
 .post_content { margin: 40px 40px 40px 40px; padding: 30px 30px 30px 30px; background-color: #645d89; }
 
