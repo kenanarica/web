@@ -1,142 +1,77 @@
-$backgroundColor: #466655;
-$bodyColor: #6448b8;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
-@font-face {
-  font-family: Asimov;
-  src: url("/assets/fonts/Asimov.otf") format("opentype");
-}
-@font-face {
-  font-family: Mons;
-  src: url("/assets/fonts/Montserrat-Regular.ttf") format("opentype");
-}
-
-$toadking : #466655;
-$illgreen : #47946e;
-$purpleill : #b0acf2;
-$moonraker : #b9aedb;
-
-$nocturne: #33485c;
-$montreux-blue: #527aa1;
-$treasure-map-waters: #6093b0;
-$tranquili-teal: #68a4ae;
-$sereni-teal: #72b4ae;
-$riverbed: #8abdb9;
-
-$sakura-night: #7a6e7b;
-$decadial-pink: #dcc6e0;
-$lovely-breeze: #f4d2e9;
-$pleasing-pink: #f5c7d6;
-$berries-n-cream: #f4bfc9;
-$salmon-flush: #eec6cd;
-
-$magic-magenta: #7f4776;
-$love-priestess: #ce62c2;
-$love-dust: #dc8cdb;
-$york-plum: #d2b4e6;
-$frozen-periwinkle: #c8d0e9;
-$whisper-of-smoke: #caccd4;
-
-$wild-west: #7b5758;
-$powder-blush: #da9396;
-$peach-velour: #ebab8f;
-$honey-gold: #e3b672;
-$crusade-king: #dbc166;
-$desert-temple: #dbcc99;
-
-$header_color : $powder-blush;
-$backgroundColor : linear-gradient(
-  #b75fd0, 
-  #da9396, 
-  #ebab8f, 
-  #e3b672, 
-  #dbc166, 
-  #e16741
-);
-$backgroundColor : linear-gradient(
-  #645d89, 
-  #aea2e7, 
-  #c9c6fd, 
-  #d9eff8, 
-  #cad3e7
-);
-
-
-$post_width : 70%;
-
-$post_color : #de5468d2;
-$post_content_color : $powder-blush;
-$text_color : #ffffff;
-
-$header_color : #d4e0fd;
-$header_text_color : #645d89;
-$post_content_color: #645d89;
-$post_color: #c9c6fd;
-
-
-
 body {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
-  height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #381D2A;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.reactContainer {
+
+  /* background-color: rgb(32, 92, 92); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sideCol { 
+  width: 25%;
+}
+
+.postCol { 
+  width: 50%;
 }
 
 .post { 
-  margin: 40px;
-  // width: 500px;
-  // height: 500px;
-  outline: inset 0px black;
-  background-color: $post_color;
-  color: $text_color;
-  width: $post_width;
-  text-size-adjust: auto;
+  // background-color: #FFA552;
+  // font-family: "Arial Bold", sans-serif;
+  // -webkit-box-shadow: -5px 7px 0px 5px #000000; 
+  // box-shadow: -5px 7px 0px 5px #000000;
+  padding: 3vh;
 }
 
-.post_content { 
-  margin: 40px 40px 40px 40px;
-  padding: 30px 30px 30px 30px;
-  background-color: $post_content_color;
-  // margin-top: 20px;
-  // margin-bottom: 20px;
-  // width: $post_width;
-  a { text-decoration: none;
-    color: #c9c6fd
-  }
-  video {
-    max-width: 100%;
-  }
+.postContent { 
+  /* inset: 5px 5px 0px 0px; */
+  /* padding: 5px; */
+  // background-color: aliceblue;
+  background-color: #FFA552;
+  font-family: "Arial Bold", sans-serif;
+  -webkit-box-shadow: -5px 7px 0px 5px #000000; 
+  box-shadow: -5px 7px 0px 5px #000000;
+  padding: 5px;
+}
+
+.homeheaderDiv { 
+  background-color: #BA5624;
+  font-size: 200%;
+  font-family: Arial Bold;
 }
 
 .homeheader { 
-  padding: 50px;
-  text-align: left;
-  background: $header_color;
-  color: $header_text_color;
-  font-size: 30px;
-  // font-family: Mons;
-  a { text-decoration: none;
-      color: $header_text_color
+  margin: 25px;
+  font-family: "Arial Bold", sans-serif;
+}
+
+video { 
+  width: 100%;
+}
+img { 
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .sideCol { 
+    width: 0;
+  }
+  .postCol { 
+    width: 80%;
+    padding: 10%;
   }
 }
-
-.what { 
-  float: right;
-}
-
-.about_positioned {
-  // -ms-transform: translate(-50%, -50%);
-  // transform: translate(-50%, -50%);
-  // background-color: $post_color;
-  margin: auto;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  width: 90vh;
-  padding-top: 30vh;
-}
-
-.about_content { 
-  background-color: $post_color;
-}
-
