@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "second post!"
+title:  "welcome :)"
 date:   2021-12-27 09:29:55 -0600
 categories: second
 ---
 
-Man this website rocks haha
+welcome to goblin.bar. This is my personal website and blog where I'll post my thoughts and mostly my drawings. enjoy! 
 
 
 

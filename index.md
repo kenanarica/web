@@ -21,10 +21,10 @@ hmm.camp
     {% for post in site.posts %}
       <div class="post">
         <div class="postContent">
-        <h3>
+        <h2>
           {{ post.title }}
-        </h3>
-          - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+        </h2>
+          - <i> <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time> </i>
           {{ post.content }}
         </div>
       </div>
